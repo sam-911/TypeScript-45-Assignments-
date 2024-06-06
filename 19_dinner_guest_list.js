@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let Guest_List = [
     'Shoaib AKhter',
     'Waseem Akram',
@@ -34,3 +32,4 @@ Guest_List.splice(0, 2);
 console.log(Guest_List);
 // Exercise # 19
 console.log(`Total number of Guests: ${Guest_List.length}`);
+export {};

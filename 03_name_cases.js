@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let yourname = '';
 yourname = prompt('what is your name') || '';
 let lowercase = yourname.toLowerCase();
@@ -15,3 +13,4 @@ else {
     alert('please fill your name !');
 }
 ;
+export {};

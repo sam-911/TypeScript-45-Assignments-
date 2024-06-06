@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let personname = '';
 personname = prompt('what is your name?') || '';
 if (personname !== null && personname !== '') {
@@ -8,3 +6,4 @@ if (personname !== null && personname !== '') {
 else {
     alert('You have to fill your name !');
 }
+export {};

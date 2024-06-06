@@ -1,5 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+#! /usr/bin/env node
 let items = [
     "Iqar",
     "Indonesia",
@@ -11,3 +10,4 @@ items1.push("English");
 items1.push("Italian");
 items1.push("Arabic");
 console.log(items1);
+export {};

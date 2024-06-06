@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let Guest_List = [
     'Shoaib AKhter',
     'Waseem Akram',
@@ -15,3 +13,4 @@ for (let i = 0; i < Guest_List.length; i++) {
     console.log("Dear Mr. " + Guest_List[i] + ',\nIt is our pleasure to invite you in our party.\nThank Your!\n');
 }
 console.log(`Mr. ${absent_Guest} is not comming to the party.`);
+export {};
